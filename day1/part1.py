@@ -1,7 +1,9 @@
 #1
-# fname = input("Input your First Name : ")
-# lname = input("Input your Last Name : ")
-# print ( lname + " " + fname)
+fname = input("Input your First Name : ")
+lname = input("Input your Last Name : ")
+txt1= fname[::-1]
+txt2= lname[::-1]
+print ( txt2 + " " + txt1)
 
 #2
 # a = int(input("Input an integer : "))
@@ -55,14 +57,14 @@
 #     x,y = y,x+y
 
 #10
-s = input("Input a string: ")
-d=l=0
-for c in s:
-    if c.isdigit():
-        d=d+1
-    elif c.isalpha():
-        l=l+1
-    else:
-        pass
-print("Letters", l)
-print("Digits", d)
+# s = input("Input a string: ")
+# d=l=0
+# for c in s:
+#     if c.isdigit():
+#         d=d+1
+#     elif c.isalpha():
+#         l=l+1
+#     else:
+#         pass
+# print("Letters", l)
+# print("Digits", d)
